@@ -71,9 +71,10 @@ function App() {
                     </h1>
                   </div>
                 </div>
+
               </div>
 
-              <div className="flex absolute mt-[485px] ml-[120px] border-2 bg-white ">
+              <div className="flex absolute mt-[240px] ml-[120px] border-2 bg-white ">
                   <Button
                     id="basic-button"
                     aria-controls={open ? "basic-menu" : undefined}
@@ -100,7 +101,7 @@ function App() {
                   </Menu>
                 </div>
 
-              <div className="flex pt-[398px] pl-[120px] ">
+              <div className="flex pt-[px] pl-[120px] ">
                 <h1 className="text-blue-700 text-lg font-semibold">
                   Find my account
                 </h1>
@@ -124,7 +125,7 @@ function App() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center bg-[#1a285f] w-[629px] h-full">
+          <div className="flex flex-col justify-center bg-[#1a285f] w-2/5 h-full">
             <div className="m-7 pt-3 pl-1 mt-23 ">
               <h1 className="bg-[#dfa4cf] w-16 p-[7px] flex justify-center rounded-lg font-semibold ">
                 eBook
